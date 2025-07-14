@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import userAPI from "../api/UserAPI";
+import userAPI from "../api/UserApi";
 import { showError, showSuccess } from "../utils/toast";
 
 export default function Login() {

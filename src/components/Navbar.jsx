@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { showSuccess } from "../utils/toast";
 import { useEffect, useState } from "react";
-import userAPI from "../api/UserAPI";
+import userAPI from "../api/UserApi";
 
 export default function Navbar() {
   const navigate = useNavigate();
