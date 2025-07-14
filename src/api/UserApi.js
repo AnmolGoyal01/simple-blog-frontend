@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const BASE_URL = "/api/auth";
+const BASE_URL = import.meta.env.PROD
+  ? "https://simple-blog-backend-jitl.onrender.com/api/auth"
+  : "/api/auth";
 
 class UserAPI {
   constructor() {
