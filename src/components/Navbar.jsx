@@ -32,6 +32,12 @@ export default function Navbar() {
           <span className="text-white">Welcome, {currentUser.fullName}</span>
         )}
         <button
+          onClick={() => navigate('/create')}
+          className="bg-green-500 px-3 py-1 rounded hover:bg-green-600"
+        >
+          Create Post
+        </button>
+        <button
           onClick={handleLogout}
           className="bg-red-500 px-3 py-1 rounded hover:bg-red-600"
         >
